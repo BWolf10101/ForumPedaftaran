@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/forum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry Mahasiswa"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editNomorTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Telepon"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:layout_marginTop="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxProgramming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemrograman"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desain"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:padding="12dp" />
+</LinearLayout>
